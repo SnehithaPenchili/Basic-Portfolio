@@ -1,0 +1,247 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.header {
+  background-color: rgba(0,0,0,0.8); 
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:35px 12%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+  color: orangered;
+}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a:active{
+  color: orangered;
+}
+.home{
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(241,241,241);
+  display:flex;
+  align-items: center;
+  gap:7em;
+  padding: 30px 12% 0;
+}
+.home-content{
+  max-width: 800px;
+
+}
+.home-content h3{
+  font-size:42px ;
+
+}
+.home-content h1{
+  font-size: 62px;
+  line-height: 1.2;
+}
+.home-content p{
+  font-size: 18px;
+  margin: 25px 0 30px;
+  text-align: justify;
+}
+.img-box img{
+  border-radius:50%;
+  width: 300px;
+}
+.about{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap:10em;
+  background:black;
+
+}
+.about-content h2{
+  color:white;
+  font-size: 42px;
+}
+.about-content h3{
+  font-size: 55px;
+  color: white;
+}
+.about-content p{
+  color:white;
+  font-size: 20px;
+  margin: 3em 0 2em;
+  text-align: justify;
+}
+.experiences {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.experiences h2 {
+  color: #000;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.experience-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.experience {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  text-align: left;
+  width: calc(33% - 30px); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience:hover {
+  transform: translateY(-5px);
+}
+
+.experience i {
+  color: orangered;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.experience h3 {
+  color: #000;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.experience p {
+  color: #333;
+  line-height: 1.5;
+}
+.projects {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.projects h2 {
+  color: orangered;
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-container {
+  display: flex; /* Main container for vertical stacking */
+  flex-direction: column; /* Stack projects vertically */
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.project {
+  display: flex; /* Each project uses flexbox for image & text */
+  margin-bottom: 30px;
+}
+
+.project-image {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 5px 0 0 5px; /* Rounded left corners */
+}
+
+.project-text {
+  width: 60%;
+}
+
+.project-text h3 {
+  color: orange;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.project-text p {
+  color:black;
+  line-height: 1.5;
+  text-align: justify;
+}
+.social-links {
+  text-align: center;
+  margin: 10px 0;
+  
+}
+
+.social-links h2 {
+  color: #000;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  margin: 20px 10px; /* Adjust spacing between icons */
+}
+
+.social-icons li a {
+  color: rgb(55, 55, 209);
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+  font-size: 20px;
+}
+
+.social-icons li a:hover {
+  color: orangered;
+}
+
+.social-icons li i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.social-link-box {
+  background-color: white; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 50px 50px; /* Inner padding */
+  display: inline-block; /* Make it inline to center icons */
+}
+footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px 0;
+  text-align: center;
+}
