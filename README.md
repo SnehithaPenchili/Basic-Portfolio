@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to my portfolio! This project showcases my skills and experience in web development. It includes sections such as Home, About Me, Experience, Projects, and Social Media links. Feel free to explore and learn more about me and my work.
+Welcome to my portfolio! This project showcases my skills and experience in web development. It includes sections such as Home, About Me, Experience, Projects, and Social Media links. Feel free to explore and learn more about me and my work.This ia a Responsive webpage compatible on all devices.
 
 ## Screenshots
 ### Home
@@ -12,7 +12,6 @@ Welcome to my portfolio! This project showcases my skills and experience in web 
 ## Languages Used
 - HTML5
 - CSS3
-- JavaScript (ES6)
 
 ## Icons Implemented
 
